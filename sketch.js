@@ -13,9 +13,9 @@ function draw() {
 }
 
 function deviceMoved(){
-  background(255);
+  background(accelerationX);
   //console.log('draw');
-  text(accelerationX+""+accelerationY+""+accelerationZ);
+  //text(accelerationX+""+accelerationY+""+accelerationZ, 10, 10);
   //r=map(accelerationX, -90, 90, 100, 175);
   //g=map(accelerationY, -90, 90, 100, 200);
   //b=map(accelerationZ, -90, 90, 100, 200);
