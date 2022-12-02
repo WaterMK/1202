@@ -7,12 +7,16 @@ function setup() {
 }
 
 function draw() {
-  background(r, g, b);
-  console.log('draw');
+  //background(r, g, b);
+  //console.log('draw');
+  //text(accelerationX+""+accelerationY+""+accelerationZ);
 }
 
 function deviceMoved(){
-  r=map(accelerationX, -90, 90, 100, 175);
-  g=map(accelerationY, -90, 90, 100, 200);
-  b=map(accelerationZ, -90, 90, 100, 200);
+  background(255);
+  //console.log('draw');
+  text(accelerationX+""+accelerationY+""+accelerationZ);
+  //r=map(accelerationX, -90, 90, 100, 175);
+  //g=map(accelerationY, -90, 90, 100, 200);
+  //b=map(accelerationZ, -90, 90, 100, 200);
 }
